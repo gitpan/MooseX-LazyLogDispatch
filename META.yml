@@ -3,6 +3,7 @@ abstract: A Logging Role for Moose
 author: 
   - Brandon Black C<< <blblack@gmail.com> >>
 build_requires: 
+  IO::Scalar: 2.110
   Test::More: 0.42
 distribution_type: module
 generated_by: Module::Install version 0.68
@@ -18,11 +19,11 @@ no_index:
 provides: 
   MooseX::LazyLogDispatch: 
     file: lib/MooseX/LazyLogDispatch.pm
-    version: 0.01
+    version: 0.02
   MooseX::LazyLogDispatch::Levels: 
     file: lib/MooseX/LazyLogDispatch/Levels.pm
-    version: 0.01
+    version: 0.02
 requires: 
   Log::Dispatch::Configurator: 0
   Moose: 0
-version: 0.01
+version: 0.02

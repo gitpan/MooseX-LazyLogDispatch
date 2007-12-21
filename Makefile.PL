@@ -5,6 +5,7 @@ name 'MooseX-LazyLogDispatch';
 all_from 'lib/MooseX/LazyLogDispatch.pm';
 
 test_requires 'Test::More' => '0.42';
+test_requires 'IO::Scalar' => '2.110';
 
 requires 'Moose'                       => '0';
 requires 'Log::Dispatch::Configurator' => '0';
